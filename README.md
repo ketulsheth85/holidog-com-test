@@ -2,7 +2,7 @@
 
 ## Backend implementation
 
-** Node Js **
+**Node.Js**
 
 Implement the following API endpoints:
 
@@ -16,6 +16,8 @@ Implement the following API endpoints:
 
 
 ## Frontend implementation
+
+**React.Js**
 
 I've consume all the API developed in backend
 
