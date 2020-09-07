@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.table-wrapper {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.table-title {
+  background: #435d7d;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fcfcfc !important;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.customSizeButton {
+  width: 100px;
+}
+
+.linkCustomView {
+  color: #28a745;
+}
+
+.linkCustomEdit {
+  color: #F44336;
+}
+
+.linkCustom {
+  color: #435d7d;
+  font-weight: 900;
+}
+
+.decoration {
+  text-decoration: none !important;
+  outline: none;
+}
+
+.decoration:hover,
+.decoration:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-item {
+  color: #DDDDDD;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.active.nav-item {
+  color: #ffffff;
+  font-weight: 600;
+}
