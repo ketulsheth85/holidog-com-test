@@ -1,10 +1,10 @@
-# Holidog Com Test
+# Holidog.com Test
 
 ## Backend implementation
 
 **Node.Js**
 
-Implement the following API endpoints:
+Implemented following API endpoints:
 
 * **GET /books/** - Returns a list of books in the database in JSON format
 * **GET /book/{{id}}/** - Returns a detail view of the specified book id. Nest author details in JSON format
@@ -14,14 +14,11 @@ Implement the following API endpoints:
 * **POST /book/** - Creates a new book with the specified details - Expects a JSON body
 
 
-
 ## Frontend implementation
 
 **React.Js**
 
-I've consume all the API developed in backend
-
-Implement the following Screen:
+I have developed following screens in React and have consumed all APIs developed in backend.
 
 * **Book** - Show the list of all the books available.
 * **Book Add/Edit** - User can Add/Edit the book info.
